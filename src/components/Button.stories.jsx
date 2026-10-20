@@ -14,6 +14,7 @@ export default {
 export const Primary = { args: { variant: 'primary' } };
 export const Secondary = { args: { variant: 'secondary' } };
 export const Danger = { args: { variant: 'danger', label: 'Delete' } };
+export const Warning = { args: { variant: 'danger', label: 'Warning' } };
 export const Small = { args: { size: 'small' } };
 export const Large = { args: { size: 'large' } };
 export const Disabled = { args: { disabled: true } };
