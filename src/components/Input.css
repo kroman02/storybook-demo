@@ -1,0 +1,14 @@
+.field { display: flex; flex-direction: column; gap: 6px; font-family: var(--font); max-width: 320px; }
+.field__label { font-size: 14px; font-weight: 600; }
+.field__input {
+  font: inherit;
+  font-size: 15px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  outline: none;
+}
+.field__input:focus { border-color: var(--color-primary); box-shadow: 0 0 0 3px #e0e7ff; }
+.field__input:disabled { background: #f9fafb; cursor: not-allowed; }
+.field__input--error { border-color: var(--color-danger); }
+.field__error { font-size: 13px; color: var(--color-danger); }
