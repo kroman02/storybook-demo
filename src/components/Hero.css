@@ -1,0 +1,41 @@
+.hero {
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 32px;
+  border-radius: 16px;
+}
+.hero--center { align-items: center; text-align: center; }
+.hero--left   { align-items: flex-start; text-align: left; }
+
+.hero--light { background: linear-gradient(180deg, #eef2ff 0%, #ffffff 100%); color: var(--color-text); }
+.hero--dark  { background: linear-gradient(180deg, #1e1b4b 0%, #111827 100%); color: #f9fafb; }
+
+.hero__eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.hero--dark .hero__eyebrow { color: #a5b4fc; }
+
+.hero__title {
+  margin: 0;
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.1;
+  max-width: 18ch;
+}
+.hero__subtitle {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 56ch;
+  color: var(--color-muted);
+}
+.hero--dark .hero__subtitle { color: #cbd5e1; }
+
+.hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+.hero--dark .btn--secondary { color: #e0e7ff; border-color: #a5b4fc; }
+.hero--dark .btn--secondary:hover:not(:disabled) { background: rgba(165, 180, 252, 0.12); }

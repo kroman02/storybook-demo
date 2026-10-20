@@ -1,6 +1,6 @@
 # Storybook Demo
 
-A tiny React component library (Button, Badge, Input, Card) documented with Storybook and deployed to Netlify.
+A tiny React component library (Button, Badge, Input, Card, Hero) documented with Storybook and deployed to Netlify.
 
 ## Run locally
 
